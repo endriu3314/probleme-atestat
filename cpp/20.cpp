@@ -22,7 +22,7 @@ int main()
   for (int i=0; i<n; i++) {
     lungimeCuvant = strlen(s[i]);
 
-      if (s[i][0] == litera && s[i][lungimeCuvant - 1] == litera) {
+    if (s[i][0] == litera && s[i][lungimeCuvant - 1] == litera) {
       ok = 1;
       fout << s[i];
     }
